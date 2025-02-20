@@ -1,5 +1,11 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
+
+rooms = [
+    {'id':1, 'name':'Lets Learn Django!'},
+    {'id':2, 'name':'Lets learn Python!'},
+    {'id':3, 'name':'Lets begin with DevOps!'},
+]
 
 
 
